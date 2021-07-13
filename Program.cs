@@ -56,7 +56,7 @@ namespace NumbersGame
                 Console.WriteLine($"{product} / {denom} = {quotient}");
             }
 
-            //The catch statements
+            //The catch statements, didn't say to use throw here so I didn't
             catch(FormatException e)
             {
                 Console.WriteLine(e.Message);
